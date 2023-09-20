@@ -15,6 +15,18 @@ body {
     background-color: white;
 }
 
+h2 {
+    text-align: left;
+}
+
+
+h2 span {
+    color: white;
+    background-color: #D2042D;
+}
+
+
+
 h3 {
     text-align: center;
 }
