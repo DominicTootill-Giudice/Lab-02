@@ -6,49 +6,17 @@ function greet() {
 }
 greet()
 
+let favFoods = ["chicken niggets", "donner meat", "stand and stuff tacos?"];
 
-let answer1 = confirm('Are you raedy for some reading')
-// = (assignment operator)
-// == (only check value - equality checking)
-// === (check value and data type - equality checking)
+let foodAns = prompt("what is one of Dom's favourite foods?").toLowerCase();
 
-if (answer1 === true) {
-    console.log('You are ready to read!! ^-^')
-}  else (answer2 === false) 
-{
-    console.log('No? Too bad MUAHAHAHAHA!!! >:D')
-} 
-
-let first = true;
-let second = false;
-let third = false
-
-if (first && third)  {
-    console.log('first and second were both true')
-} else if (first || second)  {
-    console.log('first or second were true')
-} else if (third)  {
-    console.log ('second and third are false, but the first is true')
-}  else {
-    console.log('Yeah I dunno whats going on now >->????????')
+if (foodAns === "chicken nuggets") {
+    alert("Awesome he does!!!")
 }
-
-let color = prompt('Hey, what color do you like?')
 
 console.log(color);
 console.log(color.toLowerCase())
 
-switch (color.toLowerCase()) {
-    case 'x':
-    case 'blue':
-        console.log('Your favorite color was blue')
-        break;
-    case 'yellow':
-        console.log('Your favorite color was yellow')
-        break;
-    default:
-        console.log('And that color iiiissss >->??????????')
-}
 
 // switch case is like another way of writing if else statements
 // if (color === 'blue') {
