@@ -1,34 +1,47 @@
 body {
-    background-color: #FFFFFF;
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
-    background-size: cover;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #6284ff 50%,
+    #ff0000 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-h1 span{
-    color: white;
-    background-color: #D2042D;
+h1 span {
+  color: white;
+  background-color: #d2042d;
 }
 
 li {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    text-align: left;
+  text-align: left;
 }
-
 
 h2 span {
-    color: white;
-    background-color: #D2042D;
+  color: white;
+  background-color: #d2042d;
 }
 
-
-
 h3 {
-    text-align: center;
+  text-align: center;
+}
+
+ol {
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+}
+
+ol li {
+  margin-bottom: 100px;
 }
