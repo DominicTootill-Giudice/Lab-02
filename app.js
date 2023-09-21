@@ -1,9 +1,11 @@
-console.log("Hey");
+console.log("Hey, you");
 
 function greet() {
     let username = prompt("What is your name?");
     document.write("Hi o/, " + username,);
+
 }
+
 greet()
 
 let favFoods = ["chicken niggets", "donner meat", "stand and stuff tacos?"];
@@ -14,9 +16,7 @@ if (foodAns === "chicken nuggets") {
     alert("Awesome he does!!!")
 }
 
-console.log(color);
-console.log(color.toLowerCase())
-
+console.log("Dom's favourite food is chicken nuggets ^-^")
 
 // switch case is like another way of writing if else statements
 // if (color === 'blue') {
@@ -26,18 +26,18 @@ console.log(color.toLowerCase())
 // }
 
 function askAge() {
-    let age = prompt("And you are how old?")
+    let age = prompt("And you are how old?");
     
     console.log(age);
     
-    if (age <=10) {
-    } console.log('Damn, you young O-O;;;;;')
-    if (age <=15) {
-    } console.log('Ohh okay, you at a decent young age ^-^')
-    if (age <=21) {
-    } console.log('Ohh nice, you are a healthy young and/or not so young adult ^-^')
-    
+    if (age <= 10) {
+    } console.log('Damn, you young O-O;;;;;');
+    if (age <= 15) {
+    } console.log('Ohh okay, you at a decent young age ^-^');
+    if (age <= 21) {
+    } console.log('Ohh nice, you are a healthy young and/or not so young adult ^-^');
     }
+       askAge()
 
     function askTime() {
         let time = prompt("What time is it?  (0-23)");
@@ -54,3 +54,5 @@ function askAge() {
         document.write(message);
     }
       askTime()
+
+      console.log("Good day to you ^-^!!")
